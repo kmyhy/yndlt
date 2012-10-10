@@ -6,6 +6,7 @@ Features
 * NSURL+Parameters 
 
 这是一个NSURL类别，它对NSURL进行了有效扩展，允许你快速检索URL字符串中的Query参数。它包括两个成员方法:
+
 <code>-(NSDictionary *)parameters;
     -(NSString*)getParameterByName:(NSString*)parameterName;<code>
 
