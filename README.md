@@ -6,8 +6,8 @@ Features
 * NSURL+Parameters 
 
 这是一个NSURL类别，它对NSURL进行了有效扩展，允许你快速检索URL字符串中的Query参数。它包括两个成员方法:
-    -(NSDictionary *)parameters;
-    -(NSString*)getParameterByName:(NSString*)parameterName;
+<code>-(NSDictionary *)parameters;
+    -(NSString*)getParameterByName:(NSString*)parameterName;<code>
 
 * 登录日志dltlog 
 dltlog类是一个用于向服务器提交登录日志和注销日志的辅助类。它使用默认的初始化方法。
